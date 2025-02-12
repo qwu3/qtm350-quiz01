@@ -1,0 +1,31 @@
+Last login: Mon Feb 10 22:52:47 on ttys001
+(base) qwuiris@zhongguorenMacBook-Pro ~ % git clone https://github.com/qwu3/qtm350-quiz01
+Cloning into 'qtm350-quiz01'...
+remote: Enumerating objects: 8, done.
+remote: Counting objects: 100% (8/8), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 8 (delta 0), reused 8 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (8/8), done.
+(base) qwuiris@zhongguorenMacBook-Pro ~ % cd /Users/qwuiris/qtm350-quiz01 
+(base) qwuiris@zhongguorenMacBook-Pro qtm350-quiz01 % touch commands.txt
+(base) qwuiris@zhongguorenMacBook-Pro qtm350-quiz01 % ls *.txt
+commands.txt
+(base) qwuiris@zhongguorenMacBook-Pro qtm350-quiz01 % git add commands.txt
+(base) qwuiris@zhongguorenMacBook-Pro qtm350-quiz01 % git commit -m"add commands"
+[main 4ab29f7] add commands
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 commands.txt
+(base) qwuiris@zhongguorenMacBook-Pro qtm350-quiz01 % git push origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/qwu3/qtm350-quiz01'
+(base) qwuiris@zhongguorenMacBook-Pro qtm350-quiz01 % git push origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 361 bytes | 361.00 KiB/s, done.
+Total 3 (delta 0), reused 1 (delta 0), pack-reused 0 (from 0)
+To https://github.com/qwu3/qtm350-quiz01
+   4258465..4ab29f7  main -> main
+(base) qwuiris@zhongguorenMacBook-Pro qtm350-quiz01 % 
+
