@@ -1,4 +1,8 @@
-Last login: Mon Feb 10 22:52:47 on ttys001
+<<<<<<< HEAD
+(your local changes)
+=======
+(incoming changes from remote)
+>>>>>>> origin/main Last login: Mon Feb 10 22:52:47 on ttys001
 (base) qwuiris@zhongguorenMacBook-Pro ~ % git clone https://github.com/qwu3/qtm350-quiz01
 Cloning into 'qtm350-quiz01'...
 remote: Enumerating objects: 8, done.
