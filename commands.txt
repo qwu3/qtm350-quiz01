@@ -29,3 +29,19 @@ To https://github.com/qwu3/qtm350-quiz01
    4258465..4ab29f7  main -> main
 (base) qwuiris@zhongguorenMacBook-Pro qtm350-quiz01 % 
 
+  275  git add reports
+  276  git commit -m "Add reports directory"
+  277  touch reports/file{1..3}.txt\n
+  278  mv data/raw-data.csv data/input-data.csv\n
+  279  mkdir -p scripts/backup\n
+  280  cp scripts/*.py scripts/backup/\n
+  281  rm docs/documentation.md\n
+  282  git add .\n
+  283  git commit -m "Update project files"\n
+  284  touch .gitignore\n
+  285  echo "temp/" >> .gitignore\necho "dataset0?.csv" >> .gitignore\n
+  286  echo "temp/\ndataset0?.csv" >> .gitignore
+  287  cat .gitignore
+  288  git add .gitignore && git commit -m "Add .gitignore file"\n
+  289  git checkout main\n
+  290  git merge feature-update\n
